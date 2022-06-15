@@ -25,7 +25,7 @@ function Home() {
                 <div className="center">
                     <div className="center marginTop title">
                         <h2>DETETIVE DE INSETOS</h2>
-                        <img style={{ height: 100 }} src={require('../../assets/images/lupaComInseto.png')} />
+                        <img alt="imagem" style={{ height: 100 }} src={require('../../assets/images/lupaComInseto.png')} />
                     </div>
                    
                     <div className="center">

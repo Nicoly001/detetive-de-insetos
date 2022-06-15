@@ -235,11 +235,11 @@ function Perguntas() {
                                 </div>
                                 <div className="fotos">
                                     <div className="formatarFotos">
-                                        <img className="fundoFoto" src={require('../../assets/images/imagem101.jpg')} />
+                                        <img alt="imagem" className="fundoFoto" src={require('../../assets/images/imagem101.jpg')} />
                                         <div className="centralizar fonte"> Fonte: Mais Soja </div>
                                     </div>
                                     <div className="formatarFotos">
-                                        <img className="fundoFoto" src={require('../../assets/images/imagem103.jpg')} />
+                                        <img alt="imagem" className="fundoFoto" src={require('../../assets/images/imagem103.jpg')} />
                                         <div className="centralizar fonte"> Fonte: Naturalist </div>
                                     </div>
                                 </div>
@@ -251,11 +251,11 @@ function Perguntas() {
                                 </div>
                                 <div className="fotos">
                                     <div className="formatarFotos">
-                                        <img className="fundoFoto" src={require('../../assets/images/imagem102.jpg')} />
+                                        <img alt="imagem" className="fundoFoto" src={require('../../assets/images/imagem102.jpg')} />
                                         <div className="centralizar fonte"> Fonte: Mais soja </div>
                                     </div>
                                     <div className="formatarFotos">
-                                        <img className="fundoFoto" src={require('../../assets/images/imagem104.jpg')} />
+                                        <img alt="imagem" className="fundoFoto" src={require('../../assets/images/imagem104.jpg')} />
                                         <div className="centralizar fonte"> Fonte: Bio Protection </div>
                                     </div>
                                 </div>
@@ -279,13 +279,13 @@ function Perguntas() {
                                 </div>
                                 <div className="fotos">
                                     <div className="formatarFotos">
-                                        <img className="fundoFoto" src={pergunta[questao].imagens.primeira} />
+                                        <img alt="imagem" className="fundoFoto" src={pergunta[questao].imagens.primeira} />
                                         <div className="centralizar fonte"> {pergunta[questao].imagens.primeiraLegenda} </div>
                                     </div>
 
                                     {pergunta[questao].imagens.segunda && (
                                         <div className="formatarFotos">
-                                            <img className="fundoFoto" src={pergunta[questao].imagens.segunda} />
+                                            <img alt="imagem" className="fundoFoto" src={pergunta[questao].imagens.segunda} />
                                             <div className="centralizar fonte"> {pergunta[questao].imagens.segundaLegenda} </div>
                                         </div>
                                     )}
@@ -340,10 +340,6 @@ function Perguntas() {
                                 onClick={() => {
                                     setQuestao(questao + 1)
                                     setRespostaSelecionada('')
-                                    window.scrollTo({
-                                        top: 0,
-                                        behavior: 'smooth',
-                                    });
                                 }}>
                                 Próxima Pergunta
                             </Button>
