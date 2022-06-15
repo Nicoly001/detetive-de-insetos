@@ -1,7 +1,6 @@
 import '../../App.css'
 import '../../index.css'
 import './styles.css'
-import { useState } from 'react'
 import { Button } from 'react-bootstrap';
 import { IoIosPlay } from "react-icons/io";
 import { Link, useLocation } from 'react-router-dom';
