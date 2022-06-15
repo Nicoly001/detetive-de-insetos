@@ -6,9 +6,9 @@ import { Home, Perguntas, Resultado } from './pages'
 export default function MainRoutes() {
     return (
         <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/perguntas" element={<Perguntas />} />
-            <Route path="/resultado" element={<Resultado />} />
+            <Route path="detetive-de-insetos/" element={<Home />} />
+            <Route path="detetive-de-insetos/perguntas" element={<Perguntas />} />
+            <Route path="detetive-de-insetos/resultado" element={<Resultado />} />
         </Routes>
     )
 }
