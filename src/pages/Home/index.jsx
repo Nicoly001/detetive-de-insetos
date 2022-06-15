@@ -38,7 +38,7 @@ function Home() {
                     <input className="inputHome" placeholder="Digite seu nome" type="text" value={value} onChange={handleChange} />
                 </div>
                 <div className="marginTop">
-                    <Link to="/perguntas" state={{ nome: value }}>
+                    <Link to="detetive-de-insetos/perguntas" state={{ nome: value }}>
                         <Button variant="success" size="lg">
                             <div className="buttonIcon">
                                 <IoIosPlay size={28} /> JOGAR
