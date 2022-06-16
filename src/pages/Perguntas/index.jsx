@@ -224,14 +224,13 @@ function Perguntas() {
     };
 
     useEffect(() => {
-        if (performance.navigation.type === 1) {
-            navigate("/detetive-de-insetos");
-        }
 
         window.scrollTo({
             top: 0,
             behavior: 'smooth' // for smoothly scrolling
         });
+
+
     }, [questao]);
 
     return (
