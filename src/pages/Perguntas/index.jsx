@@ -344,7 +344,7 @@ function Perguntas() {
                                 Próxima Pergunta
                             </Button>
                         ) : (
-                            <Link to="/resultado" state={{ acertou: acertou, nome: nome && nome.nome ? nome.nome : '' }}>
+                            <Link to="detetive-de-insetos/resultado" state={{ acertou: acertou, nome: nome && nome.nome ? nome.nome : '' }}>
                                 <Button variant="primary" size="lg" disabled={pergunta[questao].respondido === false ? true : false} style={{ marginTop: 10 }}  >
                                     Ver Resultado
                                 </Button>

@@ -20,7 +20,7 @@ function Resultado() {
                     </div>
                 </div>
                 <div className="marginTop">
-                    <Link to="/perguntas">
+                    <Link to="detetive-de-insetos/perguntas">
                         <Button variant="success" size="lg">
                             <div className="buttonIcon">
                                 <IoIosPlay size={28} /> JOGAR NOVAMENTE
