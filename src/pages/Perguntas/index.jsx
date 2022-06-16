@@ -1,7 +1,7 @@
 import '../../App.css'
 import '../../index.css'
 import './styles.css'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Button } from 'react-bootstrap'
 import { Link, useLocation } from 'react-router-dom'
 
@@ -215,6 +215,19 @@ function Perguntas() {
         }
     }
 
+    const scrollToTop = () => {
+        setQuestao(questao + 1)
+        setRespostaSelecionada('')
+       
+    };
+
+    useEffect(() => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth' // for smoothly scrolling
+        });
+    }, [questao]);
+
     return (
         <div style={{ overflow: 'hidden' }}>
             <div className="welcome">
@@ -337,10 +350,7 @@ function Perguntas() {
 
                         {questao < 9 ? (
                             <Button variant="primary" size="lg" disabled={pergunta[questao].respondido === false ? true : false} style={{ marginTop: 10 }}
-                                onClick={() => {
-                                    setQuestao(questao + 1)
-                                    setRespostaSelecionada('')
-                                }}>
+                                onClick={scrollToTop}>
                                 Próxima Pergunta
                             </Button>
                         ) : (
