@@ -4,7 +4,7 @@ import Routes from './routes'
 
 function App() {
   return (
-    <Router basename="https://nicoly001.github.io/detetive-de-insetos/">
+    <Router basename="/detetive-de-insetos">
       <Routes />
     </Router>
   );
