@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/detetive-de-insetos/static/css/main.d8c3e63b.css",
-    "main.js": "/detetive-de-insetos/static/js/main.a7fc0071.js",
+    "main.js": "/detetive-de-insetos/static/js/main.8fea529d.js",
     "static/js/787.dd4029b4.chunk.js": "/detetive-de-insetos/static/js/787.dd4029b4.chunk.js",
     "static/media/lupaComInseto.png": "/detetive-de-insetos/static/media/lupaComInseto.f23fa699de662037cc99.png",
     "static/media/bgHome.jpg": "/detetive-de-insetos/static/media/bgHome.d4451e936f4df94c43be.jpg",
@@ -24,11 +24,11 @@
     "static/media/imagem92.jpg": "/detetive-de-insetos/static/media/imagem92.995db63af6f26f38e96a.jpg",
     "index.html": "/detetive-de-insetos/index.html",
     "main.d8c3e63b.css.map": "/detetive-de-insetos/static/css/main.d8c3e63b.css.map",
-    "main.a7fc0071.js.map": "/detetive-de-insetos/static/js/main.a7fc0071.js.map",
+    "main.8fea529d.js.map": "/detetive-de-insetos/static/js/main.8fea529d.js.map",
     "787.dd4029b4.chunk.js.map": "/detetive-de-insetos/static/js/787.dd4029b4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d8c3e63b.css",
-    "static/js/main.a7fc0071.js"
+    "static/js/main.8fea529d.js"
   ]
 }
