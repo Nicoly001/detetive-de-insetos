@@ -3,10 +3,12 @@ import '../../index.css'
 import './styles.css'
 import { useState, useEffect } from 'react'
 import { Button } from 'react-bootstrap'
-import { Link, useLocation } from 'react-router-dom'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 
 
 function Perguntas() {
+
+    const navigate = useNavigate();
     const location = useLocation();
     const nome = location.state
 
@@ -218,10 +220,14 @@ function Perguntas() {
     const scrollToTop = () => {
         setQuestao(questao + 1)
         setRespostaSelecionada('')
-       
+
     };
 
     useEffect(() => {
+        if (performance.navigation.type === 1) {
+            navigate("/detetive-de-insetos");
+        }
+
         window.scrollTo({
             top: 0,
             behavior: 'smooth' // for smoothly scrolling
