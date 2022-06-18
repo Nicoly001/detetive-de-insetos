@@ -83,8 +83,8 @@ function Perguntas() {
             questao: 'Qual o nome científico do Percevejo-marrom?',
             a: <><i>Diceraeus melacanthus – Diceraeus melacanthus</i> (Dallas, 1851) (Hemiptera: Pentatomidae)</>,
             b: <i>Euschistus spp</i>,
-            c: <><i>Euschistus heros</i> (Fabricius, 1798) (Hemiptera: Pentatomidae)</>,
-            d: <><i>Euschistus Heros</i> (Fabricius, 1798) (Hemiptera: Pentatomidae)</>,
+            c: <><i>Euschistus heros - Euschistus heros</i> (Fabricius, 1798) (Hemiptera: Pentatomidae)</>,
+            d: <><i>Euschistus Heros - Euschistus Heros</i> (Fabricius, 1798) (Hemiptera: Pentatomidae)</>,
             correta: 'c',
             respondido: false,
             imagens: {
