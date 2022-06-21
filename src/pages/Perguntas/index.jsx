@@ -99,7 +99,7 @@ function Perguntas() {
             a: <>Ordem Hemiptera; Família Cicadellidae</>,
             b: <>Ordem Heteroptera; Família Lepidoptera</>,
             c: <>Ordem Coleoptera; Família Cydnidae</>,
-            d: <>Ordem Hemipetera; Família Cydnidae</>,
+            d: <>Ordem Hemiptera; Família Cydnidae</>,
             correta: 'd',
             respondido: false,
             imagens: {
